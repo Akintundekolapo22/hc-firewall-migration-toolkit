@@ -2,7 +2,7 @@
 
 **A free, open-source planner and set of templates that help small and mid-sized healthcare organizations replace a firewall safely, without cutting clinicians off from the systems they need or leaving patient data exposed.**
 
-**Try the planner:** `https://<your-username>.github.io/hc-firewall-migration-toolkit/` (replace with the address GitHub Pages gives you)
+https://akintundekolapo22.github.io/hc-firewall-migration-toolkit/
 
 Built for the IT lead at a clinic, community health center or small hospital, often a team of one or two. Plain-language steps, a calculated readiness check, and a report you can print and keep on file.
 
