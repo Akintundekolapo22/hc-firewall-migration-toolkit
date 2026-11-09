@@ -1,0 +1,40 @@
+cff-version: 1.2.0
+message: "If you use this toolkit, please cite it as below."
+title: "Healthcare Firewall Migration Toolkit"
+type: software
+version: "1.0.0"
+license:
+  - MIT
+  - CC-BY-4.0
+authors:
+  - family-names: Ogunwola
+    given-names: Temitope Akintunde
+  - family-names: Alozie
+    given-names: Chisom
+abstract: >-
+  A free, browser-based planner and vendor-neutral templates (pre-migration audit
+  worksheet, risk register, rule review worksheet, rollback plan, and go/no-go
+  sign-off form) that help
+  small and mid-sized healthcare organizations carry out firewall migrations
+  using the Secure Migration and Operational Stability Framework.
+keywords:
+  - healthcare cybersecurity
+  - firewall migration
+  - network security
+  - small and rural healthcare
+  - change management
+references:
+  - type: article
+    title: "Enterprise firewall modernization for business continuity: A framework for secure migration and operational stability"
+    authors:
+      - family-names: Ogunwola
+        given-names: Temitope Akintunde
+      - family-names: Alozie
+        given-names: Chisom
+    journal: "Computer Science & IT Research Journal"
+    volume: 7
+    issue: 5
+    start: 347
+    end: 361
+    year: 2026
+    doi: 10.51594/csitrj.v7i5.2287

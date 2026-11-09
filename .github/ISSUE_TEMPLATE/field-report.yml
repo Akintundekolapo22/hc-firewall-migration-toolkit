@@ -1,0 +1,31 @@
+name: Field report
+description: Tell us how you used the planner or templates. Do not include patient data, IP addresses or passwords.
+labels: ["field report"]
+body:
+  - type: input
+    id: org_type
+    attributes:
+      label: Type and size of organization
+      placeholder: "e.g. rural hospital, 25 beds, 2 IT staff"
+    validations:
+      required: true
+  - type: input
+    id: firewalls
+    attributes:
+      label: Firewalls involved (from / to)
+  - type: textarea
+    id: used
+    attributes:
+      label: Which parts did you use, and how?
+    validations:
+      required: true
+  - type: textarea
+    id: worked
+    attributes:
+      label: What worked well, and what did not?
+  - type: checkboxes
+    id: consent
+    attributes:
+      label: Permission
+      options:
+        - label: The maintainers may quote this report (without my name) when describing how the toolkit is used.

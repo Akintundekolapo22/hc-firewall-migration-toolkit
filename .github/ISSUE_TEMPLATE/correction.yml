@@ -1,0 +1,16 @@
+name: Correction or suggestion
+description: Report something unclear, wrong or missing in the planner or templates.
+labels: ["content"]
+body:
+  - type: input
+    id: where
+    attributes:
+      label: Where (step, template or section)
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What should change, and why?
+    validations:
+      required: true

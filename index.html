@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Firewall Migration Planner</title>
+  <meta name="description" content="A free, open-source planner that helps small and mid-sized healthcare organizations migrate firewalls safely. Runs entirely in your browser.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%230b5f6b'/%3E%3Cpath d='M9 9h14v4H9zM9 15h6v4H9zM17 15h6v4h-6zM9 21h14v2H9z' fill='white'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="src/styles.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="top no-print">
+    <div class="wrap top-inner">
+      <a class="brand" href="#home">
+        <svg width="28" height="28" viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="7" fill="currentColor"/><path d="M9 9h14v4H9zM9 15h6v4H9zM17 15h6v4h-6zM9 21h14v2H9z" fill="var(--surface)"/></svg>
+        <span>Firewall Migration Planner</span>
+      </a>
+      <span class="badge" title="Nothing you type is sent anywhere">
+        <svg width="14" height="14" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2a5 5 0 0 0-5 5v3H6a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8a2 2 0 0 0-2-2h-1V7a5 5 0 0 0-5-5zm-3 8V7a3 3 0 0 1 6 0v3z"/></svg>
+        Answers stay on this device
+      </span>
+      <div class="top-actions">
+        <button type="button" class="btn small ghost" id="save-file">Save to file</button>
+        <label class="btn small ghost file-btn">Open file<input type="file" id="open-file" accept=".json,application/json" class="visually-hidden"></label>
+      </div>
+    </div>
+    <nav class="wrap" aria-label="Steps"><div id="steps" class="steps"></div></nav>
+  </header>
+
+  <main id="main" class="wrap" tabindex="-1">
+    <noscript><p class="card">This planner needs JavaScript. You can still download the templates: <a href="fillable/Firewall_Migration_Worksheets.xlsx">Excel workbook</a>, <a href="fillable/Rollback_Plan.docx">rollback plan</a> and <a href="fillable/Go-No-Go_Signoff.docx">go/no-go form</a>.</p></noscript>
+  </main>
+
+  <footer class="wrap foot no-print">
+    <p id="save-status" class="small" role="status" aria-live="polite"></p>
+    <p class="small muted">
+      Healthcare Firewall Migration Toolkit 1.0.0 · Code: MIT License · Content: CC BY 4.0 ·
+      <a id="source-link" href="https://github.com/">Source on GitHub</a> ·
+      Not legal advice and not a compliance certification. Do not enter patient information.
+    </p>
+  </footer>
+  <script type="module" src="src/app.js"></script>
+</body>
+</html>

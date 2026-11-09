@@ -1,0 +1,15 @@
+{
+  "name": "hc-firewall-migration-toolkit",
+  "version": "1.0.0",
+  "description": "Free, open-source firewall migration planner and templates for small and mid-sized healthcare organizations. Runs entirely in the browser.",
+  "license": "MIT",
+  "author": "Temitope Akintunde Ogunwola and Chisom Alozie",
+  "type": "module",
+  "private": true,
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "test": "node --test test/*.test.mjs",
+    "start": "python3 -m http.server 8000"
+  },
+  "keywords": ["healthcare", "cybersecurity", "firewall-migration", "hipaa", "small-practice", "rural-health"]
+}
