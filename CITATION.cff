@@ -10,8 +10,6 @@ license:
 authors:
   - family-names: Ogunwola
     given-names: Temitope Akintunde
-  - family-names: Alozie
-    given-names: Chisom
 abstract: >-
   A free, browser-based planner and vendor-neutral templates (pre-migration audit
   worksheet, risk register, rule review worksheet, rollback plan, and go/no-go
