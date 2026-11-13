@@ -2,8 +2,8 @@ cff-version: 1.2.0
 message: "If you use this toolkit, please cite it as below."
 title: "Healthcare Firewall Migration Toolkit"
 type: software
-version: "1.0.0"
-doi: 10.5281/zenodo.24070485
+version: "1.0.1"
+doi: 10.5281/zenodo.24070484
 license:
   - MIT
   - CC-BY-4.0
