@@ -1,8 +1,10 @@
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24070485.svg)](https://doi.org/10.5281/zenodo.24070485)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24070484.svg)](https://doi.org/10.5281/zenodo.24070484)
 
 # Healthcare Firewall Migration Toolkit
 
 **A free, open-source planner and set of templates that help small and mid-sized healthcare organizations replace a firewall safely, without cutting clinicians off from the systems they need or leaving patient data exposed.**
+
+Created by Temitope Akintunde Ogunwola.
 
 https://akintundekolapo22.github.io/hc-firewall-migration-toolkit/
 
