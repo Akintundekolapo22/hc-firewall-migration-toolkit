@@ -3,7 +3,7 @@
   "version": "1.0.1",
   "description": "Free, open-source firewall migration planner and templates for small and mid-sized healthcare organizations. Runs entirely in the browser.",
   "license": "MIT",
-  "author": "Temitope Akintunde Ogunwola and Chisom Alozie",
+  "author": "Temitope Akintunde Ogunwola",
   "type": "module",
   "private": true,
   "engines": { "node": ">=20" },
