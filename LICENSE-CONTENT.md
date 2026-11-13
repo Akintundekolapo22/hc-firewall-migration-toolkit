@@ -1,6 +1,6 @@
 # License
 
-Copyright (c) 2026 Temitope Akintunde Ogunwola and Chisom Alozie
+Copyright (c) 2026 Temitope Akintunde Ogunwola
 
 The content of this repository (src/content.js, templates/, fillable/ and the
 documentation) is licensed under the
