@@ -372,7 +372,7 @@ function viewReport() {
   return h('div', { class: 'report' },
     h('div', { class: 'no-print row report-actions' }, btn('Print or save as PDF', () => window.print(), 'btn primary'), btn('Save to file', saveToFile, 'btn ghost')),
     h('h1', { text: 'Firewall migration plan' }),
-    h('p', { class: 'muted', text: `${p.org || 'Organization not set'} · Generated ${new Date().toLocaleString()} · Healthcare Firewall Migration Toolkit 1.0.0` }),
+    h('p', { class: 'muted', text: `${p.org || 'Organization not set'} · Generated ${new Date().toLocaleString()} · Healthcare Firewall Migration Toolkit 1.0.1` }),
     section('Readiness', readinessView(), g.decision ? h('p', {}, h('strong', { text: 'Recorded decision: ' }), g.decision, g.conditions ? ` — ${g.conditions}` : '') : null),
     section('1. Project and audit', kv(C.PROJECT_FIELDS.map(([k, l]) => [l, p[k]]).concat([['Audit completed', p.auditDate]])),
       h('h3', { text: 'Baseline' }), simpleTable(['Item', 'Status'], C.BASELINE_ITEMS.map(([id, t]) => [t, label[state.baseline[id]] || 'Not answered'])),
